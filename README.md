@@ -1,26 +1,33 @@
 # JP's Codeless Macro Tool 공식 배포 저장소
 
-**JP's Codeless Macro Tool**은 마우스·키보드 동작과 이미지 인식 기반 화면 자동화를 코딩 없이 만들 수 있는 Windows 데스크톱 매크로 도구입니다.
+**JP's Codeless Macro Tool**은 마우스와 키보드 동작, 이미지 인식 기반 화면 자동화를 코딩 없이 만들 수 있는 Windows 데스크톱 매크로 도구입니다.
 
-이 저장소는 프로그램의 **공식 배포물**(설치 파일·업데이트 정보·버전별 릴리스 노트)을 관리합니다.
+이 저장소는 프로그램의 **공식 배포물**(설치 파일, 업데이트 정보, 버전별 릴리스 노트)을 관리합니다.
 
 ## 다운로드
 
 **Microsoft Store에서 받으세요.**
 
-- **최신 버전 받기(권장)**: **https://apps.microsoft.com/detail/9NXX9L2ZW52W**
-  v1.4.0부터 Microsoft Store가 배포 주채널입니다. 설치 후 업데이트는 **스토어가 자동으로 처리**하므로 따로 받을 필요가 없습니다.
-- 다운로드 페이지 **https://plcmanjp.github.io/codeless-macro-tool/download/** 도 위 스토어 페이지로 연결됩니다.
-- 사용 안내·자세한 설명: **https://plcman.tistory.com/209**
-- 통합 버전 이력: **https://plcman.tistory.com/229**
+- **[최신 버전 받기(권장)](https://apps.microsoft.com/detail/9NXX9L2ZW52W)**  
+  현재 Microsoft Store 공개 버전은 **v1.9.0**입니다. 설치 후 업데이트는 Microsoft Store가 자동으로 처리합니다.
+- [다운로드 페이지](https://plcmanjp.github.io/codeless-macro-tool/download/)도 Microsoft Store 페이지로 연결됩니다.
+- [사용 안내와 자세한 설명](https://plcman.tistory.com/209)
+- [통합 버전 이력](https://plcman.tistory.com/229)
+
+## 최신 버전 주요 내용
+
+- **9개 언어 UI 지원**: 한국어, 영어, 일본어, 중국어 간체, 중국어 번체, 스페인어, 브라질 포르투갈어, 독일어, 프랑스어를 지원합니다.
+- **Windows 표시 언어 자동 선택 확대**: 브라질 포르투갈어, 독일어, 프랑스어 Windows 환경에서도 해당 UI를 자동으로 선택합니다.
+- **다국어 화면 품질 개선**: 긴 독일어와 프랑스어 버튼 문구가 잘리지 않도록 화면 배치를 보완하고 다국어 자동 검사를 확대했습니다.
+- 자세한 내용은 [v1.9.0 릴리스 노트](release_notes/v1.9.0.md)에서 확인할 수 있습니다.
 
 ### 포터블(zip) 버전에 대해
 
-GitHub Releases의 포터블 zip은 **`v1.4.0`에서 동결**되었습니다. 이후 버전(`v1.4.1` 이상)의 새 기능과 수정은 **Microsoft Store 판에만** 반영되므로, 일반 사용자는 스토어 설치를 권장합니다. 설치 없이 실행해야 하는 등 포터블이 꼭 필요한 경우에만 [releases/latest](../../releases/latest)의 `JPsCodelessMacroTool.zip`을 사용하세요.
+GitHub Releases의 포터블 zip은 **`v1.4.0`에서 동결**되었습니다. 이후 버전(`v1.4.1` 이상)의 새 기능과 수정은 **Microsoft Store 판에만** 반영되므로, 일반 사용자는 Store 설치를 권장합니다. 설치 없이 실행해야 하는 등 포터블이 꼭 필요한 경우에만 [releases/latest](../../releases/latest)의 `JPsCodelessMacroTool.zip`을 사용하세요.
 
 ## 사용자 매뉴얼
 
-기능별 사용법을 정리한 **[사용자 매뉴얼](manual/)** 을 이 저장소에서 바로 읽을 수 있습니다.
+기능별 사용법을 정리한 **[사용자 매뉴얼](manual/)** 을 이 저장소에서 바로 읽을 수 있습니다.  
 처음이라면 [0. 목록](manual/0.%20%EB%AA%A9%EB%A1%9D.md)에서 전체 구성을 먼저 확인하세요.
 
 > `manual/`은 개발 저장소의 원본에서 자동 발행되는 사본입니다. 내용 수정 요청은 [이슈](../../issues)로 남겨 주세요.
@@ -29,10 +36,10 @@ GitHub Releases의 포터블 zip은 **`v1.4.0`에서 동결**되었습니다. �
 
 | 경로 | 내용 |
 | --- | --- |
-| [`manual/`](manual/) | 사용자 매뉴얼(기능별 사용법) — 개발 저장소 원본에서 자동 발행 |
-| [Releases](../../releases) | 포터블 zip 배포 — `v1.4.0` 동결(고정 자산명 `JPsCodelessMacroTool.zip`). 최신 기능은 Microsoft Store 판에 있습니다 |
-| [`version.json`](version.json) | 업데이트 매니페스트 — `v1.4.0` 정지본. 현재 업데이트 확인은 Microsoft Store가 담당합니다 |
-| [`release_notes/`](release_notes/) | 버전별 사용자 릴리스 노트(자연어 설명) — 스토어 배포분 포함 최신까지 계속 갱신됩니다 |
+| [`manual/`](manual/) | 사용자 매뉴얼(기능별 사용법): 개발 저장소 원본에서 자동 발행 |
+| [Releases](../../releases) | 포터블 zip 배포: `v1.4.0` 동결, 고정 자산명 `JPsCodelessMacroTool.zip`. 최신 기능은 Microsoft Store 판에 있습니다 |
+| [`version.json`](version.json) | 업데이트 매니페스트: `v1.4.0` 정지본. 현재 업데이트 확인은 Microsoft Store가 담당합니다 |
+| [`release_notes/`](release_notes/) | 버전별 사용자 릴리스 노트: Microsoft Store 배포분을 포함해 v1.9.0까지 제공 |
 
 ## 버전별 릴리스 노트
 
@@ -41,23 +48,27 @@ GitHub Releases의 포터블 zip은 **`v1.4.0`에서 동결**되었습니다. �
 <!-- RELEASE-INDEX:START -->
 | 버전 | 요약 |
 | --- | --- |
-| [v1.7.0](release_notes/v1.7.0.md) | 실행 전 매크로 검사: 재생을 시작하기 전에 반복·조건·포인터 구조, 누락된 이미지, 잘못된 대상 창 설정과... |
+| [v1.9.0](release_notes/v1.9.0.md) | 9개 언어 UI 지원: 기존 한국어, 영어, 일본어, 중국어 간체, 중국어 번체, 스페인어에 브라질 포르투갈... |
+| [v1.8.2](release_notes/v1.8.2.md) | 표시 문구 가독성 개선: 화면에 표시되는 안내 문장에서 긴 대시와 가운데점 계열 기호를 문맥에 맞는 일반 문... |
+| [v1.8.1](release_notes/v1.8.1.md) | 일본어 주석 버튼의 단축키 표기 수정: 일본어로 표시할 때 주석 버튼에 세미콜론이 두 개(;;)로 나와 실제... |
+| [v1.8.0](release_notes/v1.8.0.md) | 6개 언어 UI 지원: 기존 한국어와 영어에 일본어, 중국어 간체, 중국어 번체, 스페인어를 추가했습니다. |
+| [v1.7.0](release_notes/v1.7.0.md) | 실행 전 매크로 검사: 재생을 시작하기 전에 반복, 조건, 포인터 구조, 누락된 이미지, 잘못된 대상 창 설정과... |
 | [v1.6.0](release_notes/v1.6.0.md) | Chrome 텍스트 입력 모드: Chrome을 앞으로 가져오지 않고, 사용자가 선택한 Chrome 창 안에서... |
 | [v1.5.2](release_notes/v1.5.2.md) | 다른 언어 화면에서 마우스 좌표 편집창 버튼 정렬 개선: 마우스 동작 편집창에서 좌표 표 오른쪽의 버튼(캡처... |
 | [v1.5.1](release_notes/v1.5.1.md) | 백그라운드 재생 중 대상 창 종료 감지: 백그라운드 입력으로 매크로를 실행하는 중 대상 창이 닫히면 이제 명... |
-| [v1.5.0](release_notes/v1.5.0.md) | 딜레이 시/분/초/ms 분리 입력: 딜레이(시간 대기) 스텝의 입력창을 시·분·초·ms 네 칸으로 나누었습니... |
+| [v1.5.0](release_notes/v1.5.0.md) | 딜레이 시/분/초/ms 분리 입력: 딜레이(시간 대기) 스텝의 입력창을 시, 분, 초, ms 네 칸으로 나누었습니... |
 | [v1.4.3](release_notes/v1.4.3.md) | 도움말의 What's New 개선: 도움말 창의 "What's New (최근 변경내용)" 버튼에서 Micro... |
 | [v1.4.2](release_notes/v1.4.2.md) | 실행 의존성 경량화: 매크로 실행에 필요했던 불필요한 외부 입력 라이브러리 의존성을 제거해 배포 구성과 실행... |
 | [v1.4.1](release_notes/v1.4.1.md) | 오프라인에서도 업데이트 내역 확인: 업데이트 내역(What's New) 창이 인터넷 연결 없이도 표시됩니다. |
-| [v1.4.0](release_notes/v1.4.0.md) | Microsoft Store 정식 출시 — 이후 업데이트는 스토어에서 받으세요: JP's Codeless M... |
+| [v1.4.0](release_notes/v1.4.0.md) | Microsoft Store 정식 출시: 이후 업데이트는 Store에서 받으세요. JP's Codeless M... |
 | [v1.3.7](release_notes/v1.3.7.md) | 재생 안정성: 매크로를 정지(F10)한 직후 곧바로 다시 재생할 때 드물게 발생할 수 있던 오류와 입력이 두... |
-| [v1.3.6](release_notes/v1.3.6.md) | 안정성 보강: 재생 중지/오류 시 눌린 키·마우스 버튼 OS 고착(release 짝 누락)을 방지하고, 실행... |
+| [v1.3.6](release_notes/v1.3.6.md) | 안정성 보강: 재생 중지/오류 시 눌린 키와 마우스 버튼 OS 고착(release 짝 누락)을 방지하고, 실행... |
 | [v1.3.5](release_notes/v1.3.5.md) | 데이터 보호: 변경된 매크로에서 "새로 만들기"나 저장을 할 때 저장이 실패하거나 이름 입력을 취소하면 작성... |
 | [v1.3.4](release_notes/v1.3.4.md) | 키 입력 관련 스텝을 추가할 때 더 편하고 실수 없이 쓸 수 있도록 다듬은 업데이트입니다. |
 | [v1.3.3](release_notes/v1.3.3.md) | 스텝 편집 창의 마우스 액션 화면을 더 보기 좋게 다듬은 업데이트입니다. |
 | [v1.3.2](release_notes/v1.3.2.md) | 업데이트 알림에서 다운로드 페이지로 바로 이동할 수 있도록 편의를 개선한 업데이트입니다. |
-| [v1.3.1](release_notes/v1.3.1.md) | 게임·웹·일반 프로그램 입력 호환성을 강화하고, 백그라운드 입력·전체화면 화면 인식·마우스 상대 이동 등 새... |
-| [v1.3.0](release_notes/v1.3.0.md) | 게임·웹·일반 프로그램에서 입력 호환성을 크게 높이고, 프로젝트 이동·공유 등 여러 동작을 안정화한 업데이트... |
+| [v1.3.1](release_notes/v1.3.1.md) | 게임, 웹, 일반 프로그램 입력 호환성을 강화하고, 백그라운드 입력, 전체화면 화면 인식, 마우스 상대 이동 등 새... |
+| [v1.3.0](release_notes/v1.3.0.md) | 게임, 웹, 일반 프로그램에서 입력 호환성을 크게 높이고, 프로젝트 이동, 공유 등 여러 동작을 안정화한 업데이트... |
 | [v1.2.1](release_notes/v1.2.1.md) | 프로그램의 보안과 안정성을 강화하고, 변수 입력 편의와 여러 동작을 개선한 업데이트입니다. |
 | [v1.2.0](release_notes/v1.2.0.md) | 스텝을 추가할 때 편집창을 열고 종류를 다시 고르는 2단계 과정을 없애고, 메뉴에서 원하는 동작을 바로 선택... |
 | [v1.1.0](release_notes/v1.1.0.md) | 화면에 표시된 텍스트를 읽어 변수에 저장하고, 그 내용으로 조건 분기하거나 마우스를 정확한 위치로 이동시키는... |
