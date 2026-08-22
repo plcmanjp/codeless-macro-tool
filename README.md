@@ -1,4 +1,4 @@
-# JP's Codeless Macro Tool — 공식 배포 저장소
+# JP's Codeless Macro Tool 공식 배포 저장소
 
 **JP's Codeless Macro Tool**은 마우스·키보드 동작과 이미지 인식 기반 화면 자동화를 코딩 없이 만들 수 있는 Windows 데스크톱 매크로 도구입니다.
 
