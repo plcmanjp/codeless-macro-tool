@@ -1,9 +1,8 @@
-# JP's Codeless Macro Tool — 사용자 매뉴얼
+# JP's Codeless Macro Tool 사용자 매뉴얼
 
-> 이 폴더는 개발 저장소의 매뉴얼 원본에서 **자동 발행**됩니다. 직접 편집하지 마세요.
-> 오탈자·내용 수정 요청은 [이슈](../../issues)로 남겨 주세요.
+설치부터 매크로 편집, 녹화와 재생까지 기능별로 안내합니다. 아래 문서와 문서 안의 관련 링크로 이 저장소에서 이어 읽을 수 있습니다.
 
-설치는 Microsoft Store에서 받을 수 있습니다 — https://apps.microsoft.com/detail/9NXX9L2ZW52W
+[앱 소개와 설치 안내](../README.md) | [Microsoft Store에서 설치하기](https://apps.microsoft.com/detail/9NXX9L2ZW52W)
 
 ## 목차
 
@@ -27,5 +26,6 @@
 
 ## 관련 링크
 
-- 사용 안내·소개: https://plcman.tistory.com/209
-- 통합 버전 이력: https://plcman.tistory.com/229
+- [앱 소개와 설치 안내](../README.md)
+- [버전별 릴리스 노트](../README.md#버전별-릴리스-노트)
+- [오류 및 개선 요청](https://github.com/plcmanjp/codeless-macro-tool/issues)
