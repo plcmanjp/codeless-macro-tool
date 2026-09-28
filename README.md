@@ -1,5 +1,7 @@
 # JP's Codeless Macro Tool
 
+**한국어** | [English](README.en.md)
+
 **반복하는 마우스 클릭과 키보드 입력을 코딩 없이 자동화하세요.**
 
 JP's Codeless Macro Tool은 Windows용 무료 매크로 도구입니다. 직접 조작한 동작을 녹화하거나, 클릭과 입력 같은 동작을 스텝으로 추가해 나만의 자동화 순서를 만들 수 있습니다.

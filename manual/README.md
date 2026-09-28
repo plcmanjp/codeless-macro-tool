@@ -1,5 +1,7 @@
 # JP's Codeless Macro Tool 사용자 매뉴얼
 
+**한국어** | [English](en/README.md)
+
 설치부터 매크로 편집, 녹화와 재생까지 기능별로 안내합니다. 아래 문서와 문서 안의 관련 링크로 이 저장소에서 이어 읽을 수 있습니다.
 
 [앱 소개와 설치 안내](../README.md) | [Microsoft Store에서 설치하기](https://apps.microsoft.com/detail/9NXX9L2ZW52W)
